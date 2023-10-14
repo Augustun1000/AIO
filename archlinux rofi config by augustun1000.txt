@@ -1,7 +1,7 @@
 INstalar rofi(ejecutador de aplicaciones):
 
 sudo pacman -Syu rofi
-sudo pacman -S ttf-nerd-fronts-symbols
+sudo pacman -S ttf-nerd-fonts-symbols
 
 Generar el archivo de configuracion de rofi:
 mkdir ~/.config/rofi
