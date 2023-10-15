@@ -344,11 +344,6 @@
       </action>
       <action name="Resize"/>
     </keybind>
-<keybind key="A-F2">
-  <action name="Execute">
-    <command>kitty</command>
-  </action>
-</keybind>
     <!-- Window Tiling: Snap feature -->
     <keybind key="W-Left">
       <action name="UnmaximizeFull"/>
@@ -672,11 +667,6 @@
     </keybind>
     <!-- ################################ Launch Applications ################################ -->
     <!-- Apps -->
-    <keybind key="W-Return">
-      <action name="Execute">
-        <command>kitty</command>
-      </action>
-    </keybind>
     <keybind key="W-f">
       <action name="Execute">
         <command>pcmanfm</command>
@@ -731,30 +721,8 @@
     <!-- CLI Apps -->
     <keybind key="C-A-t">
       <action name="Execute">
-        <command>xfce4-terminal</command>
-      </action>
-    </keybind>
-    <keybind key="C-A-v">
-      <action name="Execute">
-        <command>alacritty -e vim</command>
-      </action>
-    </keybind>
-    <keybind key="C-A-r">
-      <action name="Execute">
-        <command>alacritty -e ranger</command>
-      </action>
-    </keybind>
-    <keybind key="C-A-h">
-      <action name="Execute">
-        <command>alacritty -e htop</command>
-      </action>
-    </keybind>
+        <command>Kitty</command>
     <!-- Misc -->
-    <keybind key="C-A-l">
-      <action name="Execute">
-        <command>betterlockscreen --lock</command>
-      </action>
-    </keybind>
     <keybind key="W-t">
       <action name="Execute">
         <command>ob-furminal</command>
