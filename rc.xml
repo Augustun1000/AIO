@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Copyright (C) 2023 Augustun1000 <ap4444556666@gmail.com> -->
+<!-- Copyright (C) 2023 Augustun1000 <augustoperezriesgo@gmail.com> -->
 <!-- ################################ General Settings ################################ -->
 <openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
   <!-- Resistance -->
@@ -590,60 +590,7 @@
     <keybind key="C-Print">
       <action name="Execute">
         <command>flameshot<command>
-    <!-- Brightness Control -->
-    <keybind key="XF86MonBrightnessUp">
-      <action name="Execute">
-        <command>ob-brightness --inc</command>
-      </action>
-    </keybind>
-    <keybind key="XF86MonBrightnessDown">
-      <action name="Execute">
-        <command>ob-brightness --dec</command>
-      </action>
-    </keybind>
-    <!-- Volume -->
-    <keybind key="XF86AudioRaiseVolume">
-      <action name="Execute">
-        <command>ob-volume --inc</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioLowerVolume">
-      <action name="Execute">
-        <command>ob-volume --dec</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioMute">
-      <action name="Execute">
-        <command>ob-volume --toggle</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioMicMute">
-      <action name="Execute">
-        <command>ob-volume --toggle-mic</command>
-      </action>
-    </keybind>
-    <!-- Media Controls -->
-    <keybind key="XF86AudioStop">
-      <action name="Execute">
-        <command>mpc stop</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioPlay">
-      <action name="Execute">
-        <command>mpc toggle</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioPrev">
-      <action name="Execute">
-        <command>mpc prev</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioNext">
-      <action name="Execute">
-        <command>mpc next</command>
-      </action>
-    </keybind>
-    <!-- ################################ Launch Applications ################################ -->
+         <!-- ################################ Launch Applications ################################ -->
     <!-- Apps -->
     <keybind key="W-f">
       <action name="Execute">
