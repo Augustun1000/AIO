@@ -5,5 +5,5 @@ packages=("xorg-server" "xorg-xinit" "xorg-xrandr" "xdg-user-dirs" "openbox" "ob
 
 for package in "${packages[@]}"; do
    echo "Installing $package..."
-   sudo pacman -S --noconfirm "$package"
+   sudo pacman -S "$package"
 done
