@@ -589,7 +589,7 @@
     <!-- Screenshot Keys -->
     <keybind key="C-Print">
       <action name="Execute">
-        <command>flameshot</command>
+        <command>flameshot<command>
     <!-- Brightness Control -->
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
