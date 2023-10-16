@@ -1,5 +1,5 @@
 #!/bin/bash
-#Copyright (C) 2023 Augustun1000 <augustoperezriesgo@gmail.com>
+#Copyright (C) 2023 Augustun1000 <ap4444556666@gmail.com>
 # List of packages to install
 packages=("simplescreenrecorder")
 
