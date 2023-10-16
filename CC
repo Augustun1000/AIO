@@ -1,1 +1,2 @@
 cp -r /etc/xdg/openbox/  .config/
+xdg-user-dir-update
