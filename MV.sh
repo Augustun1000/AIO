@@ -5,4 +5,5 @@ chmod +x BPI.sh &&
 chmod +x CC.sh &&
 chmod +x PI.sh &&
 shopt -s dotglob
+rm -r /home/augustun1000/AIO/.git
 mv /home/augustun1000/AIO/* /home/augustun1000/
