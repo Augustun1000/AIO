@@ -7,6 +7,7 @@ chmod +x Yay-Installer.sh &&
 chmod +x QEMU-Installer.sh &&
 chmod +x Delete-All-Scripts.sh &&
 shopt -s dotglob
+m -rf /home/augustun1000/AIO/.git
 mv /home/augustun1000/AIO/* /home/augustun1000/
 m -rf /home/augustun1000/AIO
 
