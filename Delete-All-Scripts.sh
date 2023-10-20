@@ -7,3 +7,4 @@ rm -rf Paru-Instaler.sh &&
 rm -rf Yay-Instaler.sh &&
 rm -rf QEMU-Instaler.sh &&
 rm -rf .config.zip
+rm -rf AIO
