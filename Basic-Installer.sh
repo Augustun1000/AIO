@@ -3,7 +3,7 @@
 
 chmod +x Update-Config.sh &&
 chmod +x Paru-Installer.sh &&
-chmod +x Yay-Instaler.sh &&
+chmod +x Yay-Installer.sh &&
 chmod +x QEMU-Installer.sh &&
 chmod +x Delete-All-Scripts.sh &&
 shopt -s dotglob
