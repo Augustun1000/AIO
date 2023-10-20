@@ -4,8 +4,8 @@
 chmod +x Update-Config.sh &&
 chmod +x Paru-Installer.sh &&
 chmod +x Yay-Instaler.sh &&
-chmod +x QEMU.sh &&
-chmod +x Delete-All-Scripts.sh
+chmod +x QEMU-Installer.sh &&
+chmod +x Delete-All-Scripts.sh &&
 shopt -s dotglob
 rm -rf /home/augustun1000/AIO/.git
 mv /home/augustun1000/AIO/* /home/augustun1000/
