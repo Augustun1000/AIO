@@ -26,4 +26,4 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 # Terminal testing: sudo pacman -S libva-utils vdpauinfo clinfo
 
 #Compile custom Kernel
-sudo pacman -S base-devel xmlto kmod inetutils bc libelf git
+sudo pacman -S --noconfirm base-devel xmlto kmod inetutils bc libelf git
