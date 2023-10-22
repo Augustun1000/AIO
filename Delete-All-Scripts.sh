@@ -3,7 +3,6 @@
 
 rm -rf Basic-Installer.sh &&
 rm -rf Install-Config.sh &&
-rm -rf Paru-Installer.sh &&
 rm -rf QEMU-Installer.sh &&
 rm -rf .config.zip &&
 rm -rf Virtualbox shared folder access.txt
