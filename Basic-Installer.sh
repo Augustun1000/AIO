@@ -41,3 +41,5 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 #make modules_install
 #cp -v arch/x86/boot/bzImage /boot/vmlinuz-(your favorite kernel)
 # mkinitcpio -k (kernel_version of your favorite kernel) -g /boot/initramfs-(your favorite kernel).img
+#cp System.map /boot/System.map-(your favorite kernel)
+#Finish
