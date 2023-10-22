@@ -24,3 +24,6 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 #Drivers gen 8 to up
 #sudo pacman -S xf86-video-intel vulkan-intel lib32-vulkan-intel vulkan-tools mesa lib32-mesa intel-media-driver intel-compute-runtime intel-media-driver
 # Terminal testing: sudo pacman -S libva-utils vdpauinfo clinfo
+
+#Compile custom Kernel
+sudo pacman -S base-devel xmlto kmod inetutils bc libelf git
