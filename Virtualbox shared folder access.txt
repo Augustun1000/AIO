@@ -1,2 +1,2 @@
 sudo usermod -a -G vboxsf mir
-sudo chown -R augustun1000:users /media/xd/
+sudo chown -R augustun1000:users /media/sf_xd/
