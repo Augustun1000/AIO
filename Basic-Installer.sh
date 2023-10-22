@@ -25,5 +25,13 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 #sudo pacman -S xf86-video-intel vulkan-intel lib32-vulkan-intel vulkan-tools mesa lib32-mesa intel-media-driver intel-compute-runtime intel-media-driver
 # Terminal testing: sudo pacman -S libva-utils vdpauinfo clinfo
 
-#Compile custom Kernel
-sudo pacman -S --noconfirm base-devel xmlto kmod inetutils bc libelf git
+#Compile custom Kernel Guide
+#Package to use: sudo pacman -S --noconfirm base-devel xmlto kmod inetutils bc libelf git
+#mkdir kernelbuild
+#mkdir ~/kernelbuild#wget (your favorite kernel) in: https://www.kernel.org
+#tar -xvf (your favorite kernel)
+#chown -R $augustun1000:$USER (your favorite kernel)
+#cd (your favorite kernel)
+#make mrproper
+#zcat /proc/config.gz > .config
+#make
