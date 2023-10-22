@@ -3,9 +3,7 @@
 
 #Files to move and edit
 chmod +x Update-Config.sh &&
-chmod +x Paru-Installer.sh &&
-chmod +x Yay-Installer.sh &&
-chmod +x QEMU-Installer.sh &&
+chmod +x Vanities-Installer.sh &&
 chmod +x Delete-All-Scripts.sh &&
 shopt -s dotglob &&
 rm -rf /home/augustun1000/AIO/.git &&
