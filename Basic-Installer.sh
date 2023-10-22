@@ -37,3 +37,6 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 #make -j$(nproc)
 #zcat /proc/config.gz > .config
 #makecp -v arch/x86/boot/bzImage /boot/vmlinuz-linuxAB
+#sudo su
+#make modules_install
+#cp -v arch/x86/boot/bzImage /boot/vmlinuz-(your favorite kernel)
