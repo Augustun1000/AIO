@@ -12,3 +12,9 @@ sudo pacman -S qemu-full libvirt virt-manager
 
 #Temporal service
 #sudo systemctl start libvirtd.service
+
+#Install aur helper in this case Paru
+sudo pacman -S --needed base-devel &&
+git clone https://aur.archlinux.org/paru.git &&
+cd paru &&
+makepkg -si
