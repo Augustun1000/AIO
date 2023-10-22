@@ -2,7 +2,7 @@
 #Copyright (C) 2023 Augustun1000 <augustoperezriesgo@gmail.com>
 
 #Files to move and edit
-chmod +x Update-Config.sh &&
+chmod +x Install-Config.sh &&
 chmod +x Vanities-Installer.sh &&
 chmod +x Delete-All-Scripts.sh &&
 shopt -s dotglob &&
