@@ -36,4 +36,4 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 #make menuconfig
 #make -j$(nproc)
 #zcat /proc/config.gz > .config
-#make
+#makecp -v arch/x86/boot/bzImage /boot/vmlinuz-linuxAB
