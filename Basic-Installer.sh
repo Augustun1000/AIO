@@ -34,5 +34,6 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 #cd (your favorite kernel)
 #make mrproper
 #make menuconfig
+#make -j$(nproc)
 #zcat /proc/config.gz > .config
 #make
