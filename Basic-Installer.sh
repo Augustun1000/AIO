@@ -2,8 +2,9 @@
 #Copyright (C) 2023 Augustun1000 <augustoperezriesgo@gmail.com>
 
 #Files to move and edit
-chmod +x Vanities-Installer.sh &&
-chmod +x Delete-All-Scripts.sh &&
+chmod +777 Install-Config.sh &&
+chmod +777 Vanities-Installer.sh &&
+chmod +777 Delete-All-Scripts.sh &&
 shopt -s dotglob &&
 rm -rf /home/augustun1000/AIO/.git &&
 mv /home/augustun1000/AIO/* /home/augustun1000/
