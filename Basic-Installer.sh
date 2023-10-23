@@ -11,7 +11,7 @@ mv /home/augustun1000/AIO/* /home/augustun1000/
 rm -rf /home/augustun1000/AIO
 mv /home/augustun1000/Created-by-コダマ.png /home/augustun1000/Desktop &&
 mv /home/augustun1000/By-平沢Zen＠.png /home/augustun1000/Desktop &&
-mv /home/augustun1000/.config.7z /home/augustun1000/Desktop/ &&
+mv /home/augustun1000/.config.7z /home/augustun1000/Desktop &&
 # List of packages to install
 sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86-video-intel vulkan-intel lib32-vulkan-intel vulkan-tools mesa lib32-mesa intel-media-driver libva-utils vdpauinfo clinfo openbox obconf arandr feh thunar pulseaudio pavucontrol htop neofetch adapta-gtk-theme tint2 networkmanager xfce4-power-manager lm_sensors lxappearance-gtk3 nano geany opera rofi p7zip gimp steam code kitty flameshot baobab xarchiver viewnior meld mplayer papirus-icon-theme ttf-dejavu ttf-liberation noto-fonts gnome-disk-utility gparted
 
