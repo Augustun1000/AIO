@@ -7,8 +7,8 @@ chmod +x Vanities-Installer.sh &&
 chmod +x Delete-All-Scripts.sh &&
 shopt -s dotglob &&
 rm -rf /home/augustun1000/AIO/.git &&
-mv /home/augustun1000/AIO/* /home/augustun1000/ &&
-rm -rf /home/augustun1000/AIO &&
+mv /home/augustun1000/AIO/* /home/augustun1000/
+rm -rf /home/augustun1000/AIO
 mv /home/augustun1000/Created-by-コダマ.png /home/augustun1000/Downloads &&
 mv /home/augustun1000/By-平沢Zen＠.png /home/augustun1000/Downloads &&
 mv /home/augustun1000/.config.7z /home/augustun1000/Downloads/ &&
