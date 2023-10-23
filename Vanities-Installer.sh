@@ -1,19 +1,30 @@
 #!/bin/bash
 #Copyright (C) 2023 Augustun1000 <augustoperezriesgo@gmail.com>
 
-# Install QEMU and graphic QEMU with Virt-Manager
+#------------------------------Install QEMU and graphic QEMU with Virt-Manager------------------------------
 sudo pacman -S qemu-full libvirt virt-manager
 
-#For ip adress and ssh conection
-#sudo pacman -S iptables dnsmasq dmidecode bridge-utils openbsd-netcat
+#Temporal service
+#sudo systemctl start libvirtd.service
+#sudo virsh net-start default
 
 #Permanent service
 #sudo systemctl enable --now libvirtd.service
 
-#Temporal service
-#sudo systemctl start libvirtd.service
+#Remote Qeme with SSH conection and IP
+#sudo pacman -S iptables dnsmasq dmidecode bridge-utils openbsd-netcat
 
-#Install aur helper in this case Paru
+#Internet error of NAT/DHCP
+#> See list
+#sudo virsh net-list --all
+#> Define NAT conection
+#sudo virsh net-define /etc/libvirt/qemu/networks/default.xml
+#> Automatic start 
+#sudo virsh net-autostart default
+#> Temporal start of NAT
+#sudo virsh net-start default
+
+#--------------------------------------Install aur helper in this case Paru---------------------------------
 sudo pacman -S --needed base-devel &&
 git clone https://aur.archlinux.org/paru.git &&
 cd paru &&
