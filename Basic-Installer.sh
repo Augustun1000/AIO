@@ -35,7 +35,8 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 #sudo su
 #make modules_install
 #cp -v arch/x86/boot/bzImage /boot/vmlinuz-(your favorite kernel)
-#mkinitcpio -k (your favorite kernel) number -c /etc/mkinitcpio.conf -g /boot/initrams-(your favorite kernel).img
+#mkinitcpio -k (your favorite kernel number) -c /etc/mkinitcpio.conf -g /boot/initrams-(your favorite kernel).img
+#In case you not encuenter your kernel number use: ls /usr/lib/modules
 #cp System.map /boot/System.map-(your favorite kernel)
 #grub-mkconfig -o /boot/grub/grub.cfg
 #Finish
