@@ -4,4 +4,4 @@
 #My custom config for openbox, rofi, kitty terminal and tint2
 xdg-user-dirs-update &&
 cp -r /etc/xdg/openbox/  .config/ &&
-7z -x .config.7z -aoa
+7z x .config.7z -aoa
