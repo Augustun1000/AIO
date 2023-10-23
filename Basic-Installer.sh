@@ -22,7 +22,9 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 #Compile custom Kernel Guide
 #Package to use: sudo pacman -S --noconfirm base-devel xmlto kmod inetutils bc libelf git
 #mkdir kernelbuild
-#mkdir ~/kernelbuild#wget (your favorite kernel) in: https://www.kernel.org
+#cd kernelbuild
+#mkdir ~/kernelbuild
+#wget (your favorite kernel) in: https://www.kernel.org
 #tar -xvf (your favorite kernel)
 #chown -R $augustun1000:$USER (your favorite kernel)
 #cd (your favorite kernel)
