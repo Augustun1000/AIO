@@ -36,3 +36,12 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 #cp System.map /boot/System.map-(your favorite kernel)
 #grub-mkconfig -o /boot/grub/grub.cfg
 #Finish
+
+#Install i915 intel module:
+#sudo nano /etc/mkinitcpio.conf
+#...
+#MODULES=(i915)
+#...
+#sudo mkinitcpio -P 
+#sudo grub-mkconfig -o /boot/grub/grub.cfg
+#Finish
