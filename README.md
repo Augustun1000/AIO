@@ -15,5 +15,5 @@ where I use these bash scripts added to archinstall desktop minimal.
 #Finish basic installation
 10: ./Delete-All-Scripts.sh
 
-#Vanities-Installer.sh contains paru installer and qemu and
-Basic-Installer.sh contain how to compile custom kernel and active instel driver
+#Vanities-Installer.sh contains paru installer and qemu and Basic-Installer.sh contain how to compile custom kernel and active instel driver
+ 
