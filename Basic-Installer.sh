@@ -28,7 +28,7 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 #tar -xvf (your favorite kernel)
 #chown -R $augustun1000:$USER (your favorite kernel)
 #cd (your favorite kernel)
-#make mrproper
+#make mrproper / make localmodconfig
 #make menuconfig
 #make -j$(nproc)
 #makecp -v arch/x86/boot/bzImage /boot/vmlinuz-linuxAB
