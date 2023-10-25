@@ -49,4 +49,4 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 #sudo grub-mkconfig -o /boot/grub/grub.cfg
 #Finish
 
-#Steam proton: create a folder: /home/augustun1000/.steam/steam/compatibilitytools.d in where extract ge proton
+#Steam proton: create a folder: mkdir /home/augustun1000/.steam/steam/compatibilitytools.d in where extract ge proton
