@@ -2,7 +2,7 @@
 #Copyright (C) 2023 Augustun1000 <augustoperezriesgo@gmail.com>
 
 #------------------------------Install QEMU and graphic QEMU with Virt-Manager------------------------------
-sudo pacman -S qemu-full libvirt virt-manager
+sudo pacman -S qemu-full libvirt virt-manager iptables dnsmasq dmidecode bridge-utils openbsd-netcat
 
 #Temporal service
 #sudo systemctl start libvirtd.service
@@ -10,9 +10,6 @@ sudo pacman -S qemu-full libvirt virt-manager
 
 #Permanent service
 #sudo systemctl enable --now libvirtd.service
-
-#Remote Qeme with SSH conection and IP
-#sudo pacman -S iptables dnsmasq dmidecode bridge-utils openbsd-netcat
 
 #Internet error of NAT/DHCP
 #> See list
