@@ -5,13 +5,10 @@
 sudo pacman -S qemu-full libvirt virt-manager iptables dnsmasq dmidecode bridge-utils openbsd-netcat
 
 #Temporal service
-#sudo systemctl start libvirtd.service
+#sudo systemctl enable --now libvirtd.service
 #sudo virsh net-start default
 #sudo chown augustun1000:username /var/run/libvirt/libvirt-sock
-
-
-#Permanent service
-#sudo systemctl enable --now libvirtd.service
+#sudo systemctl reboot
 
 #Internet error of NAT/DHCP
 #> See list
