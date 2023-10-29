@@ -6,6 +6,7 @@ sudo pacman -S qemu-full libvirt virt-manager iptables-nft dnsmasq dmidecode bri
 
 #Temporal service
 #sudo systemctl enable --now libvirtd.service
+#sudo virsh net-autostart default
 #sudo virsh net-start default
 #sudo chown augustun1000:username /var/run/libvirt/libvirt-sock
 #sudo pacman -S dmidecode
