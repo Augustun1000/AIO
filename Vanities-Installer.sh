@@ -30,5 +30,4 @@ makepkg -si
 
 #--------------------------------------Install pentesting tools---------------------------------
 
-Sudo pacman -S aircrack-ng
-paru -S wireshark-git
+Sudo pacman -S aircrack-ng wireshark-qt
