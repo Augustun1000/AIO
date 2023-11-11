@@ -10,7 +10,7 @@ rm -rf /home/augustun1000/AIO/.git &&
 mv /home/augustun1000/AIO/* /home/augustun1000/ &&
 rm -rf /home/augustun1000/AIO &&
 # List of packages to install
-sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86-video-intel mesa lib32-mesa openbox obconf arandr feh thunar htop neofetch adapta-gtk-theme tint2 networkmanager cbatticon lm_sensors lxappearance-gtk3 nano geany opera rofi p7zip gimp steam code kitty xterm flameshot baobab xarchiver viewnior meld mplayer papirus-icon-theme ttf-dejavu ttf-liberation noto-fonts gnome-disk-utility gparted noto-fonts-cjk
+sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86-video-intel mesa lib32-mesa openbox obconf arandr feh thunar htop neofetch adapta-gtk-theme tint2 networkmanager cbatticon lm_sensors lxappearance-gtk3 nano geany opera rofi p7zip gimp code kitty xterm flameshot baobab xarchiver viewnior meld mplayer papirus-icon-theme ttf-dejavu ttf-liberation noto-fonts gnome-disk-utility gparted noto-fonts-cjk pulseaudio pavucontrol
 
 #Universal intel drivers (All gen 1 to up)
 #sudo pacman -S xf86-video-intel vulkan-intel lib32-vulkan-intel vulkan-tools mesa lib32-mesa
@@ -49,4 +49,7 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 #sudo grub-mkconfig -o /boot/grub/grub.cfg
 #Finish
 
-#Steam proton: create a folder: mkdir /home/augustun1000/.steam/steam/compatibilitytools.d in where extract ge proton
+#Connect to wifi using NetworkManager: nmcli d wifi connect (Wifi name) password (password of wifi)
+#cbatticon: Use to see baterry % in netbooks, laptops, etc
+# Use sudo pacman -U for install pkg.tar.zst archives
+
