@@ -2,7 +2,7 @@
 #Copyright (C) 2023 Augustun1000 <augustoperezriesgo@gmail.com>
 
 #------------------------------Install QEMU and graphic QEMU with Virt-Manager------------------------------
-sudo pacman -S qemu-full libvirt virt-manager iptables-nft dnsmasq dmidecode bridge-utils openbsd-netcat
+#sudo pacman -S qemu-full libvirt virt-manager iptables-nft dnsmasq dmidecode bridge-utils openbsd-netcat
 
 #Temporal service
 #sudo systemctl enable --now libvirtd.service
@@ -27,3 +27,7 @@ sudo pacman -S --needed base-devel &&
 git clone https://aur.archlinux.org/paru.git &&
 cd paru &&
 makepkg -si
+
+#--------------------------------------Install pentesting tools---------------------------------
+
+Sudo pacman -S wireshark-qt aircrack-ng
