@@ -1,5 +1,7 @@
-CyberSecurity tools: Metasploit - Sherlock - Socialfish - Zphisher - Sqlmap - airocrack-ng - wifite - jonh the ripper
+CyberSecurity tools: Metasploit - Sherlock - Socialfish - Zphisher - Sqlmap - airocrack-ng - wifite - jonh the ripper - wireshark
 
+--------------------------Pentesting------------------------
+Sudo pacman -S wireshark-qt airocrack-ng wifite
 monitor mode:
 ifconfig
 iwconfig
@@ -24,10 +26,7 @@ sudo wifite
 change dictionary to rockyou : sudo wifite --dict /home/augustun1000/Downloads/rockyou.txt
 
 ---------------------Password Cracking---------------------
-JonhTheRipper 
-Hashcat
 sudo pacman -S hashcat john
 ---------------------Web Cloning-------------------------
-Zpisher
 git clone --depth=1 https://github.com/htr-tech/zphisher.git
 
