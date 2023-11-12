@@ -5,7 +5,6 @@ rm -rf Basic-Installer.sh &&
 rm -rf Install-Config.sh &&
 rm -rf Vanities-Installer.sh &&
 rm -rf .config.7z &&
-rm -rf Virtualbox-shared-folder-access.txt &&
-rm -rf Basic-Installer-Netbook.sh
-rm -rf README.md
+rm -rf Basic-Installer-Netbook.sh &&
+rm -rf README.md &&
 rm -rf Delete-All-Scripts.sh
