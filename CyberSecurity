@@ -5,7 +5,7 @@
 
 #Intall packages:
 
-Sudo pacman -S wireshark-qt airocrack-ng wifite bully cowpatty hashcat hcxdumptool hcxtools john macchanger reaver
+sudo pacman -S wireshark-qt airocrack-ng wifite bully cowpatty hashcat hcxdumptool hcxtools john macchanger reaver
 
 #--------------------------Pentesting------------------------
 #Sudo pacman -S wireshark-qt airocrack-ng wifite
