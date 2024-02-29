@@ -9,4 +9,5 @@ rm -rf Basic-Installer-Netbook.sh &&
 rm -rf README.md &&
 rm -rf Delete-All-Scripts.sh
 rm -rf Basic-Installer-VMB
+rm -rf CyberSecurity.sh
 rm -rf README.md
