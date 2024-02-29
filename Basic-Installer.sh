@@ -73,3 +73,6 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 
 #File manager: thunar thunar-volman gvfs
 #thunar-volman gvfs for automatic detect storage media
+
+#Install java:
+#sudo pacman -S jre8-openjdk jre11-openjdk jdk17-openjdk jre-openjdk
