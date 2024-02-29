@@ -77,4 +77,4 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 
 #VBoxManage showvminfo "idle"
 #VBoxManage setextradata "idle" "VBoxInternal/Devices/VMMDev/0/Config/GetHostTimeDisabled" 1
-#VBoxManage setextradata "idle" "VBoxInternal/TM/WarpDrivePercentage" 200
+#VBoxManage setextradata "idle" "VBoxInternal/TM/WarpDrivePercentage" 500
