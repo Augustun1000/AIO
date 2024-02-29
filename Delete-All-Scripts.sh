@@ -8,3 +8,4 @@ rm -rf .config.7z &&
 rm -rf Basic-Installer-Netbook.sh &&
 rm -rf README.md &&
 rm -rf Delete-All-Scripts.sh
+rm -rf README.md
