@@ -70,3 +70,6 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 
 #Install java:
 #sudo pacman -S jre8-openjdk jre11-openjdk jdk17-openjdk jre-openjdk
+
+#Change time: timedatectl set-time "2014-08-26 11:13:54"
+
