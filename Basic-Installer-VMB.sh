@@ -72,9 +72,8 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 #sudo pacman -S jre8-openjdk jre11-openjdk jdk17-openjdk jre-openjdk
 
 #Change time:
-systemctl stop ntpd
-timedatectl set-ntp true 
-timedatectl set-time "2014-08-26 11:13:54"
+#timedatectl set-ntp false 
+#timedatectl set-time "2014-08-26 11:13:54"
 
 # VBoxManage setextradata idle "VBoxInternal/Devices/VMMDev/0/Config/GetHostTimeDisabled" 1
 # VBoxManage setextradata idle "VBoxInternal/TM/WarpDrivePercentage" 500
