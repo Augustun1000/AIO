@@ -73,7 +73,7 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 
 #Change time:
 systemctl stop ntpd
-ntpd -gq
+timedatectl set-ntp true 
 timedatectl set-time "2014-08-26 11:13:54"
 
 # VBoxManage setextradata idle "VBoxInternal/Devices/VMMDev/0/Config/GetHostTimeDisabled" 1
