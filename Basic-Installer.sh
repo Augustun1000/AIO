@@ -51,8 +51,8 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 
 #Steam proton: create a folder: mkdir /home/augustun1000/.steam/steam/compatibilitytools.d in where extract ge proton
 
-
 #Connect to wifi using NetworkManager: nmcli d wifi connect (Wifi name) password (password of wifi)
+
 #cbatticon: Use to see baterry % in netbooks, laptops, etc
 
 #Change brightness:
@@ -60,18 +60,12 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 #brightnessctl set 10%+ increase by 10%
 #brightnessctl set 10%- decrease by 10%
 
-#Terminal Browser: Lynx
-#Use: lynx https://astian.org/midori-browser/
-#Use sudo pacman -U for install pkg.tar.zst archives
-
-#Detect android storage via usb: mtpfs gvfs-mtp gvfs-gphoto2 packages
-
 #Audio:pulseaudio pavucontrol packages
 
 #Dual boot:
-#gnome-disks and os-prober packages mount boot partition and sudo grub-mkconfig -o /boot/grub/grub.cfg
+#gnome-disks and os-prober packages mount boot partition with gnome-disks and sudo grub-mkconfig -o /boot/grub/grub.cfg
 
-#File manager: thunar thunar-volman gvfs
+#File manager: thunar thunar-volman gvfs-mtp gvfs-gphoto2 packages
 #thunar-volman gvfs for automatic detect storage media
 
 #Install java:
