@@ -77,5 +77,6 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 #timedatectl set-time "2014-10-26 11:13:54"
 
 #VBoxManage showvminfo "idle"
+#VBoxManage modifyvm "idle" --vram 256
 #VBoxManage setextradata "idle" "VBoxInternal/Devices/VMMDev/0/Config/GetHostTimeDisabled" 1
 #VBoxManage setextradata "idle" "VBoxInternal/TM/WarpDrivePercentage" 500
