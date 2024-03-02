@@ -64,7 +64,7 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 
 
 #Dual boot:
-#edit: /boot/grub/grub.cfg 
+#edit: /etc/default/grub
 #gnome-disks and os-prober packages mount boot partition with gnome-disks and sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 #File manager: thunar thunar-volman gvfs-mtp gvfs-gphoto2 packages
