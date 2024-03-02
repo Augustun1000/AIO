@@ -63,6 +63,7 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 #Audio:pulseaudio pavucontrol packages
 
 #Dual boot:
+#edit: /boot/grub/grub.cfg 
 #gnome-disks and os-prober packages mount boot partition with gnome-disks and sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 #File manager: thunar thunar-volman gvfs-mtp gvfs-gphoto2 packages
