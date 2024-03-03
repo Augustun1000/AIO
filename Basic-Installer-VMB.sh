@@ -78,5 +78,9 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 
 #VBoxManage showvminfo "idle"
 #VBoxManage modifyvm "idle" --vram 256
+# Disable time sync from host:
 #VBoxManage setextradata "idle" "VBoxInternal/Devices/VMMDev/0/Config/GetHostTimeDisabled" 1
+
+# Disable time sync from guest:
+/etc/init.d/vboxadd-service stop
 #VBoxManage setextradata "idle" "VBoxInternal/TM/WarpDrivePercentage" 300
