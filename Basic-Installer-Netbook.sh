@@ -49,30 +49,9 @@ sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86
 #sudo grub-mkconfig -o /boot/grub/grub.cfg
 #Finish
 
-#Steam proton: create a folder: mkdir /home/augustun1000/.steam/steam/compatibilitytools.d in where extract ge proton
-
-#Connect to wifi using NetworkManager: nmcli d wifi connect (Wifi name) password (password of wifi)
-
-#cbatticon: Use to see baterry % in netbooks, laptops, etc
-
-#Change brightness:
-
-#brightnessctl set 10%+ increase by 10%
-#brightnessctl set 10%- decrease by 10%
-
-#Audio:pulseaudio pavucontrol packages
-
-
 #Dual boot:
 #edit: /etc/default/grub
 #gnome-disks and os-prober packages mount boot partition with gnome-disks and sudo grub-mkconfig -o /boot/grub/grub.cfg
 
-#File manager: thunar thunar-volman gvfs-mtp gvfs-gphoto2 packages
-#thunar-volman gvfs for automatic detect storage media
-
 #Install java:
 #sudo pacman -S jre8-openjdk jre11-openjdk jdk17-openjdk jre-openjdk
-
-#Change time:
-#timedatectl set-ntp false 
-#timedatectl set-time "2014-10-26 11:13:54"
