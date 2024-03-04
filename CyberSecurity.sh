@@ -1,12 +1,9 @@
 #!/bin/bash
 #Copyright (C) 2023 Augustun1000 <augustoperezriesgo@gmail.com>
 
-#CyberSecurity tools: Metasploit - Sherlock - Socialfish - Zphisher - Sqlmap - airocrack-ng - wifite - jonh the ripper - wireshark
-
 #Intall packages:
-
-sudo pacman -S wireshark-qt aircrack-ng wifite bully cowpatty hashcat hcxdumptool hcxtools john macchanger reaver
-
+sudo pacman -S wireshark-qt aircrack-ng wifite bully cowpatty hashcat hcxdumptool hcxtools john macchanger reaver metasploit
+Github: Socialfish Sherlock Zphisher Sqlmap
 #--------------------------Pentesting------------------------
 #Sudo pacman -S wireshark-qt airocrack-ng wifite
 ##monitor mode:
@@ -15,10 +12,9 @@ sudo pacman -S wireshark-qt aircrack-ng wifite bully cowpatty hashcat hcxdumptoo
 #sudo airmon-ng check
 #sudo airmon-ng check kill
 #sudo airmon-ng start wlp2s0
-
 #comprobe monitor mode: iwconfig
 
-#Wifi packet
+#Wifi packets
 
 #sudo airodump-ng wlp2s0
 
