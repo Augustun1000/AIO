@@ -31,3 +31,6 @@ makepkg -si
 #--------------------------------------Install pentesting tools---------------------------------
 
 Sudo pacman -S aircrack-ng wireshark-qt
+
+#Install java:
+#sudo pacman -S jre8-openjdk jre11-openjdk jdk17-openjdk jre-openjdk
