@@ -37,13 +37,55 @@ Packages information:
 -pavucontrol: Gui for edit audio level
 -brightnessctl: A CLI program to edit screen light
 -mtpfs gvfs-mtp gvfs-gphoto2: Plugins to see other disk
+-cbatticon: Use to see baterry % in netbooks, laptops, etc
 
-How to configure this:
+How to use/configure this:
 
+#Steam proton: create a folder: mkdir /home/augustun1000/.steam/steam/compatibilitytools.d in where extract ge proton
 
+#Connect to wifi using NetworkManager: nmcli d wifi connect (Wifi name) password (password of wifi)
 
+#Change brightness:
+#brightnessctl set 10%+ increase by 10%
+#brightnessctl set 10%- decrease by 10%
 
+#Change time:
+#timedatectl set-ntp false 
+#timedatectl set-time "2014-10-26 11:13:54"
 
+#Dual boot:
+#edit: /etc/default/grub
+#gnome-disks and os-prober packages mount boot partition with gnome-disks and sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+#Compile custom Kernel Guide
+#Package to use: sudo pacman -S --noconfirm base-devel xmlto kmod inetutils bc libelf git
+#mkdir kernelbuild
+#cd kernelbuild
+#mkdir ~/kernelbuild
+#wget (your favorite kernel) in: https://www.kernel.org
+#tar -xvf (your favorite kernel)
+#chown -R $augustun1000:$USER (your favorite kernel)
+#cd (your favorite kernel)
+#make mrproper / make localmodconfig
+#make menuconfig
+#make -j$(nproc)
+#sudo su
+#make modules_install
+#cp -v arch/x86/boot/bzImage /boot/vmlinuz-(your favorite kernel)
+#mkinitcpio -k (your favorite kernel) -c /etc/mkinitcpio.conf -g /boot/initramfs-(your favorite kernel).img
+#In case you not encuenter your kernel number use: ls /usr/lib/modules
+#cp System.map /boot/System.map-(your favorite kernel)
+#grub-mkconfig -o /boot/grub/grub.cfg
+#Finish
+
+#Install i915 intel module:
+#sudo nano /etc/mkinitcpio.conf
+#...
+#MODULES=(i915)
+#...
+#sudo mkinitcpio -P 
+#sudo grub-mkconfig -o /boot/grub/grub.cfg
+#Finish
 
 
 
