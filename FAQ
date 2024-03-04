@@ -10,7 +10,7 @@ Packages information:
 -htop: Is a CLI program to see the machime resource consumision
 -neofetch: Is a CLI program to see machine specifications
 -adapta-gtk-theme: Theme for programs
--tint2: Theme for programs
+-tint2: Is a menu bar
 -networkmanager: Is a program for configure network
 -lm_sensors: For see temperature of processor
 -lxappearance-gtk3: Theme for programs
