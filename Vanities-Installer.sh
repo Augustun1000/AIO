@@ -33,3 +33,11 @@ makepkg -si
 ------------------------------------------------------
 #Install Virtualbox
 sudo pacman -S virtualbox virtualbox-guest-iso virtualbox-guest-utils virtualbox-host-dkms virtualbox-host-modules-arch
+
+#VBoxManage showvminfo "idle"
+#VBoxManage modifyvm "idle" --vram 256
+# Disable time sync from host:
+#VBoxManage setextradata "idle" "VBoxInternal/Devices/VMMDev/0/Config/GetHostTimeDisabled" 1
+
+#VBoxManage setextradata "idle" "VBoxInternal/TM/WarpDrivePercentage" 300
+
