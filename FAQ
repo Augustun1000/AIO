@@ -24,3 +24,28 @@ Packages information:
 -kitty: Linux terminal
 -xterm: Linux terminal
 -flameshot: Program for screenshot
+-baobab: Disk file analizer
+-xarchiver: Gui for p7zip
+-viewnior: Is a program to see photos
+-meld: Is a program to compare differences in code for two files
+-mplayer: Video reproductor
+-papirus-icon-theme: Programs theme
+-ttf-dejavu ttf-liberation noto-fonts: Fonts for linux
+-gnome-disk-utility: Gui for edit configuration for disk
+-gparted: Gui to edit partitions on the disk
+-pulseaudio: Dirvers for audio
+-pavucontrol: Gui for edit audio level
+-brightnessctl: A CLI program to edit screen light
+-mtpfs gvfs-mtp gvfs-gphoto2: Plugins to see other disk
+
+How to configure this:
+
+
+
+
+
+
+
+
+
+
