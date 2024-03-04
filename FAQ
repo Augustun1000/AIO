@@ -1,1 +1,26 @@
 Packages information:
+
+-xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86-video-intel vulkan-intel lib32-vulkan-intel vulkan-tools mesa lib32-mesa intel-media-driver libva-utils vdpauinfo clinfo: Is for video drivers
+-openbox: Is the windows manager
+-obconf: Is for config openbox
+-arandr: Is for edit screen resolution
+-feh: Is the screen wallpaper
+-thunar: Archive gestor
+-thunar-volman gvfs: Are thunar pluggins for external drives
+-htop: Is a CLI program to see the machime resource consumision
+-neofetch: Is a CLI program to see machine specifications
+-adapta-gtk-theme: Theme for programs
+-tint2: Theme for programs
+-networkmanager: Is a program for configure network
+-lm_sensors: For see temperature of processor
+-lxappearance-gtk3: Theme for programs
+-nano: Text editor for terminal
+-geany: Text editor program, no for terminal
+-rofi: menu for execute programs
+-p7zip: 7zip port for compress archives
+-gimp: Photo editor
+-steam: Is for play games
+-code: VScode editor for linux
+-kitty: Linux terminal
+-xterm: Linux terminal
+-flameshot: Program for screenshot
