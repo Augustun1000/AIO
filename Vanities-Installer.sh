@@ -39,5 +39,5 @@ sudo pacman -S virtualbox virtualbox-guest-iso virtualbox-guest-utils virtualbox
 # Disable time sync from host:
 #VBoxManage setextradata "idle" "VBoxInternal/Devices/VMMDev/0/Config/GetHostTimeDisabled" 1
 
-#VBoxManage setextradata "idle" "VBoxInternal/TM/WarpDrivePercentage" 300
+#VBoxManage setextradata "idle" "VBoxInternal/TM/WarpDrivePercentage" 1000
 
