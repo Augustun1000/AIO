@@ -87,7 +87,7 @@ How to use/configure this:
 #sudo grub-mkconfig -o /boot/grub/grub.cfg
 #Finish
 
-
+#Load xrdb -load .Xresources in terminal for apply xterm config
 
 
 
