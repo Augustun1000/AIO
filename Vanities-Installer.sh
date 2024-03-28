@@ -40,4 +40,6 @@ sudo pacman -S virtualbox virtualbox-guest-iso virtualbox-guest-utils virtualbox
 #VBoxManage setextradata "idle" "VBoxInternal/Devices/VMMDev/0/Config/GetHostTimeDisabled" 1
 
 #VBoxManage setextradata "idle" "VBoxInternal/TM/WarpDrivePercentage" 1000
-
+------------------------------------------------------
+#Install wine
+sudo pacman -S wine winetricks wine-mono wine-gecko
