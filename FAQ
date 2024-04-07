@@ -12,6 +12,7 @@ Packages information:
 -adapta-gtk-theme: Theme for programs
 -tint2: Is a menu bar
 -networkmanager: Is a program for configure network
+-xfce4-power-manager: Is for edit screen time
 -lm_sensors: For see temperature of processor
 -lxappearance-gtk3: Theme for programs
 -nano: Text editor for terminal
