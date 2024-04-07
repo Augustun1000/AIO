@@ -10,7 +10,7 @@ rm -rf /home/augustun1000/AIO/.git &&
 mv /home/augustun1000/AIO/* /home/augustun1000/ &&
 rm -rf /home/augustun1000/AIO &&
 # List of packages to install
-sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86-video-intel mesa lib32-mesa vulkan-intel lib32-vulkan-intel vulkan-tools openbox obconf arandr feh thunar thunar-volman gvfs htop neofetch adapta-gtk-theme tint2 networkmanager cbatticon lm_sensors lxappearance-gtk3 nano geany rofi p7zip gimp code kitty xterm flameshot baobab xarchiver viewnior meld mplayer papirus-icon-theme ttf-dejavu ttf-liberation noto-fonts gnome-disk-utility gparted noto-fonts-cjk pulseaudio pavucontrol brightnessctl mtpfs gvfs-mtp gvfs-gphoto2 os-prober
+sudo pacman -S --noconfirm xorg-server xorg-xinit xorg-xrandr xdg-user-dirs xf86-video-intel mesa lib32-mesa vulkan-intel lib32-vulkan-intel vulkan-tools openbox obconf arandr feh thunar thunar-volman gvfs htop neofetch adapta-gtk-theme tint2 networkmanager cbatticon lm_sensors lxappearance-gtk3 nano geany rofi p7zip gimp code kitty xterm flameshot baobab xarchiver viewnior meld mplayer papirus-icon-theme ttf-dejavu ttf-liberation noto-fonts gnome-disk-utility gparted noto-fonts-cjk pulseaudio pavucontrol brightnessctl mtpfs gvfs-mtp gvfs-gphoto2 os-prober xfce4-power-manager
 
 #Universal intel drivers (All gen 1 to up)
 #sudo pacman -S xf86-video-intel vulkan-intel lib32-vulkan-intel vulkan-tools mesa lib32-mesa
