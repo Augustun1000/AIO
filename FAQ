@@ -39,7 +39,7 @@ Packages information:
 -brightnessctl: A CLI program to edit screen light
 -mtpfs gvfs-mtp gvfs-gphoto2: Plugins to see other disk
 -cbatticon: Use to see baterry % in netbooks, laptops, etc
-
+-yad: Use to confire poweroff menu in tint2(Yad is shell with gui)
 How to use/configure this:
 
 #Steam proton: create a folder: mkdir /home/augustun1000/.steam/steam/compatibilitytools.d in where extract ge proton
