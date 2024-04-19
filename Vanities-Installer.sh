@@ -43,3 +43,4 @@ sudo pacman -S virtualbox virtualbox-guest-iso virtualbox-guest-utils virtualbox
 ------------------------------------------------------
 #Install wine
 sudo pacman -S wine winetricks wine-mono wine-gecko
+yay -S winegui
