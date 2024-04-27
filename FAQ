@@ -7,6 +7,7 @@ Packages information:
 -feh: Is the screen wallpaper
 -thunar: Archive gestor
 -thunar-volman gvfs: Are thunar pluggins for external drives
+thunar-archive-plugin
 -htop: Is a CLI program to see the machime resource consumision
 -neofetch: Is a CLI program to see machine specifications
 -adapta-gtk-theme: Theme for programs
