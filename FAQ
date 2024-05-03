@@ -92,5 +92,8 @@ How to use/configure this:
 
 #Load xrdb -load .Xresources in terminal for apply xterm config
 
+Commands in linux:
+Update system: sudo pacman -Syyu
+Install package: sudo pacman -S (Name)
 
 
