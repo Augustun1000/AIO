@@ -31,7 +31,7 @@ makepkg -si
 #Install java:
 #sudo pacman -S jre8-openjdk jre11-openjdk jdk17-openjdk jre-openjdk
 ------------------------------------------------------
-#Install Virtualbox
+#Install Virtualbox (dkms packege is for lts kernel)
 sudo pacman -S virtualbox virtualbox-guest-iso virtualbox-guest-utils virtualbox-host-modules-arch
 
 #VBoxManage showvminfo "idle"
