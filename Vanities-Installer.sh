@@ -32,7 +32,7 @@ makepkg -si
 #sudo pacman -S jre8-openjdk jre11-openjdk jdk17-openjdk jre-openjdk
 ------------------------------------------------------
 #Install Virtualbox
-sudo pacman -S virtualbox virtualbox-guest-iso virtualbox-guest-utils virtualbox-host-dkms virtualbox-host-modules-arch
+sudo pacman -S virtualbox virtualbox-guest-iso virtualbox-guest-utils virtualbox-host-modules-arch
 
 #VBoxManage showvminfo "idle"
 #VBoxManage modifyvm "idle" --vram 256
