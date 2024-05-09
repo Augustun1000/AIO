@@ -22,10 +22,10 @@
 #> Temporal start of NAT
 #sudo virsh net-start default
 
-#--------------------------------------Install aur helper in this case Paru---------------------------------
-sudo pacman -S --needed base-devel &&
-git clone https://aur.archlinux.org/paru.git &&
-cd paru &&
+#--------------------------------------Install aur helper in this case Yay---------------------------------
+pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
 makepkg -si
 --------------------------------------------------------------------------------
 #Install java:
