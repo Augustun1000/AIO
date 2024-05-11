@@ -1,5 +1,5 @@
 #!/bin/bash
-#Copyright (C) 2023 Augustun1000 <augustoperezriesgo@gmail.com>
+#Copyright (C) 2024 Augustun1000 <augustoperezriesgo@gmail.com>
 
 #My custom config for openbox, rofi, kitty terminal and tint2
 xdg-user-dirs-update &&
