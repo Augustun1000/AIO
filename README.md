@@ -4,15 +4,14 @@ where I use these bash scripts added to archinstall desktop minimal.
 
 #Guide
 1: Use archinstall and install desktop minimal, active multilib and use wifi netwokmanager <br>
-2: Boot system and use: git clone https://github.com/Augustun1000/AIO <br>
-3: Create an user called augustun1000 <br>
-4: Once the system is installed, restart the system and clone the repository <br>
-5: A folder called AIO will be created <br>
-6: cd aio <br>
-7: chmod 777 Basic-Installer.sh <br>
-8: ./Basic-Installer.sh <br>
-9: cd <br>
-10: ./Install-Config.sh <br>
+2: Once the system is installed, restart the system and clone the repository <br>
+3: A folder called AIO will be created <br>
+4: Edit Install-Config.sh and .config, replace augustun1000 for your user name  <br>
+5: cd aio <br>
+6: chmod 777 Basic-Installer.sh <br>
+7: ./Basic-Installer.sh <br>
+8: cd <br>
+9: ./Install-Config.sh <br>
 #Finish basic installation <br>
 10: ./Delete-All-Scripts.sh <br>
 
