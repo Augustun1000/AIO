@@ -35,7 +35,7 @@ thunar-archive-plugin
 -gnome-disk-utility: Gui for edit configuration for disk
 -gparted: Gui to edit partitions on the disk
 -pulseaudio: Dirvers for audio
--pavucontrol: Gui for edit audio level
+-pulsemixer: Cli app for edit audio level
 -mtpfs gvfs-mtp gvfs-gphoto2: Plugins to see other disk
 -cbatticon: Use to see baterry % in netbooks, laptops, etc
 -yad: Use to confire poweroff menu in tint2(Yad is shell with gui)
