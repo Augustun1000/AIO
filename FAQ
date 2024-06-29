@@ -22,7 +22,6 @@ thunar-archive-plugin
 -p7zip: 7zip port for compress archives
 -gimp: Photo editor
 -steam: Is for play games
--code: VScode editor for linux
 -kitty: Linux terminal
 -xterm: Linux terminal
 -flameshot: Program for screenshot
@@ -37,7 +36,6 @@ thunar-archive-plugin
 -gparted: Gui to edit partitions on the disk
 -pulseaudio: Dirvers for audio
 -pavucontrol: Gui for edit audio level
--brightnessctl: A CLI program to edit screen light
 -mtpfs gvfs-mtp gvfs-gphoto2: Plugins to see other disk
 -cbatticon: Use to see baterry % in netbooks, laptops, etc
 -yad: Use to confire poweroff menu in tint2(Yad is shell with gui)
